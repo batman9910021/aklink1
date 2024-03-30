@@ -77,7 +77,7 @@ async def start_services():
     if Var.ON_HEROKU:
         print('                        app running on =>> {}'.format(Var.FQDN))
     print('---------------------------------------------------------------------------------------------------------')
-    print('If you have any query then you can contact me on telegram https://t.me/Opleech')
+    print('If you have any query then you can contact me')
     print('---------------------------------------------------------------------------------------------------------')
     await idle()
 
