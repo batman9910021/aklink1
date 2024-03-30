@@ -16,7 +16,7 @@ from WOODcraft.utils.file_properties import get_name, get_hash, get_media_file_s
 db = Database(Var.DATABASE_URL, Var.name)
 
 
-MY_PASS = os.environ.get("MY_PASS", None)
+MY_PASS = os.environ.get("MY_PASS", "Batman007")
 pass_dict = {}
 pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 
